@@ -200,6 +200,14 @@ flexible_assets:
           network-settings: string
           replication-settings: string
           host-settings: string
+          # Used for "DHCP Autodoc"
+          server-settings: string
+          scope: string
+          scope-options: string
+          server-options: string
+          reservation: string
+          exclusion-range: string
+          scope-id: string
   returnbody:
     errors: list
     data:
